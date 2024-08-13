@@ -5,6 +5,7 @@
 :root {
     --primary-color: #FFFCF4;
     --sub-color: #2E2100;
+    --line-clamp: 1;
 }
 
 html {
@@ -17,7 +18,15 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+
 /* Common */
+
+.line-clamp{
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
 .circle {
     width: 48px;
@@ -299,6 +308,7 @@ nav .action {
 }
 
 .popular .desc {
+    --line-clamp: 2;
     margin-top: 16px;
     width: 450px;
     color: #5F5B53;
