@@ -21,7 +21,7 @@ body {
 
 /* Common */
 
-.line-clamp{
+.line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 1);
     -webkit-box-orient: vertical;
@@ -403,4 +403,179 @@ nav .action {
 
 .popular .body .cta:hover {
     background: #FFB900;
+}
+
+/* Feedbacks */
+
+.feedbacks {
+    padding: 96px 0;
+    background: #2E2100;
+}
+
+.feedbacks .profile {
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+}
+
+.feedbacks .avt {
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+}
+
+.feedbacks .name {
+    margin-top: 18px;
+    color: #F7F7F7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.42;
+}
+
+.feedbacks .info {
+    --line-clamp: 2;
+    margin-top: 4px;
+    color: #BFBCB2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.85;
+}
+
+.feedbacks .profile .circle {
+    margin-top: 28px;
+    background-color: #634700;
+    width: 6px;
+    height: 6px;
+}
+
+.feedbacks .profile .circle+.circle {
+    margin-left: 6px;
+}
+
+.feedbacks .row .active {
+    background-color: #FFB900;
+}
+
+.feedbacks-list {
+    overflow: hidden;
+    display: flex;
+}
+
+.feedbacks-item {
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+.feedbacks .body {
+    width: 770px;
+}
+
+.feedbacks .quote {
+    padding-left: 30px;
+    --line-clamp: 4;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.54;
+}
+
+/* Feature */
+
+.feature {
+    margin-top: 150px;
+    padding: 50px;
+}
+
+.feature:last-of-type {
+    margin-top: 100px;
+}
+
+.feature .content {
+    height: 438px;
+    display: flex;
+}
+
+.feature .block-img {
+    position: relative;
+    width: 570px;
+}
+
+.feature .block-img .image {
+    position: absolute;
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.feature .block-img .image:first-child {
+    bottom: 0;
+    left: 0;
+}
+
+.feature .block-img .image:last-child {
+    top: 0;
+    right: 0;
+}
+
+.feature .block-body {
+    padding-left: 130px;
+    margin: auto 0;
+}
+
+.feature .block-body .sub-title {
+    --line-clamp: 2;
+    width: 470px;
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26;
+    letter-spacing: -0.076rem;
+}
+
+.feature .block-body .desc {
+    margin-top: 16px;
+    --line-clamp: 3;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.feature .block-body .btn {
+    margin-top: 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    background: #FFB900;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.rev {
+    margin-top: 100px;
+}
+
+.rev .content {
+    justify-content: space-between;
+}
+
+.rev .block-body {
+    padding: 0;
+}
+
+.rev .image {
+    width: 470px;
+    height: 440px;
+    border-radius: 20px;
 }
