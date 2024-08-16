@@ -579,3 +579,119 @@ nav .action {
     height: 440px;
     border-radius: 20px;
 }
+
+/* Blogs */
+
+.blogs {
+    margin-top: 150px;
+    padding: 96px 0;
+    background-color: var(--primary-color);
+}
+
+.blogs .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogs .sub-title {
+    color: #130606;
+    text-align: center;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26;
+    letter-spacing: -0.076rem;
+}
+
+.blogs .desc {
+    width: 448px;
+    margin-top: 16px;
+    color: #696262;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.blogs-list {
+    display: flex;
+    margin-top: 55px;
+    gap: 30px;
+}
+
+.blogs-items {
+    width: 370px;
+    overflow: hidden;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.blogs-items .image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.blogs .body {
+    padding: 20px;
+    padding-left: 28px;
+}
+
+.blogs .date {
+    display: flex;
+    align-items: center;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+}
+
+.blogs .date::before {
+    margin-right: 4px;
+    display: inline-block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #FFB900;
+}
+
+.blogs .line {
+    width: 160px;
+    height: 1px;
+    border-radius: 0.5px;
+    margin-top: 12px;
+    background: #E2DFDA;
+}
+
+.blogs .body .title {
+    width: 330px;
+    margin-top: 12px;
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.blogs .cta {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 21px;
+    border-radius: 25px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+    background-color: #130606;
+}
+
+.blogs .cta:hover {
+    background-color: #FFB900;
+}
